@@ -1,4 +1,7 @@
-var playlist = {songTitle: [] };                                // one way to make an Object
+var playlist = {
+  'Foo Fighters': 'Everlong',
+  Prince: 'Purple Rain'
+}                               // one way to make an Object
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle                             // add a key and value to object playlist
